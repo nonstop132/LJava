@@ -1,0 +1,17 @@
+package org.iknow-it;
+import java.util.Scanner;
+
+public class Homework2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter String 1: ");
+        String S1 = scanner.nextLine();
+        System.out.print("Please enter String 2: ");
+        String S2 = scanner.nextLine();
+        System.out.print("Please enter String 3: ");
+        String S3 = scanner.nextLine();
+        System.out.println(S1 + S3);
+        System.out.println(S3 + S2 + S1);
+        System.out.println(S1 + S2 + S3);
+    }
+}
